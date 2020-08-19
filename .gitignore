@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+seg_models
+word_cut
+.idea
