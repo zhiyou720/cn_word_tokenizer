@@ -87,7 +87,7 @@ print(__)
 ```
 
 
-###注
+### 注
 
 使用清华模型需要
 [下载](https://github.com/zhiyou720/cn_word_tokenizer/blob/master/conf/thulac.models/README.md)
