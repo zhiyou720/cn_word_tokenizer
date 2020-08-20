@@ -1,1 +1,4 @@
 hanlp==2.0.0a46
+thulac~=0.2.1
+nltk~=3.5
+jieba~=0.42.1
