@@ -79,10 +79,10 @@ class JiebaTokenizer:
         new_tokens_tagged = []
 
         for i in range(len(tokens_tagged)):
-            if tokens_tagged[i][0].lower() not in stop_word:
-                new_tokens_tagged.append(tokens_tagged[i])
-            else:
+            if tokens_tagged[i][0].lower() in stop_word or tokens_tagged[i][0].lower() == ' ':
                 new_tokens_tagged.append((tokens_tagged[i][0], self.ignore_tag))
+            else:
+                new_tokens_tagged.append(tokens_tagged[i])
 
         return new_tokens_tagged
 
