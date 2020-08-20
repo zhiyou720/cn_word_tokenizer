@@ -89,4 +89,4 @@ print(__)
 
 ###注
 
-使用清华模型需要[下载]('conf/README.md')模型
+使用清华模型需要[下载](./conf/README.md)模型
